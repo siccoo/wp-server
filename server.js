@@ -10,12 +10,12 @@ const port = process.env.PORT || 9000;
 const connection_url = "mongodb+srv://mikky:siccoo2468@cluster0.ihspf.mongodb.net/whatsappDBase?retryWrites=true&w=majority";
 
 const pusher = new Pusher({
-    appId: "1385034",
-    key: "603d45ad50b469dbe3c3",
-    secret: "0d6728107d8907b9a8bc",
+    appId: "1384968",
+    key: "5af807256b897b25f136",
+    secret: "65100631119cd1f43cf7",
     cluster: "eu",
     useTLS: true
-  });
+});
 
 // MIDDLEWARE
 app.use(express.json());
